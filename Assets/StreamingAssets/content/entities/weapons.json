@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "wpn_charge_wave",
+      "type": "weapon",
+      "behavior": "charge_wave",
+      "nameKey": "weapon.charge_wave.name",
+      "descKey": "weapon.charge_wave.desc",
+      "params": {
+        "minCharge": 0.15,
+        "sweetStart": 0.55,
+        "sweetEnd": 0.8,
+        "maxCharge": 1.2,
+        "maxRange": 8,
+        "speed": 12,
+        "returnSpeed": 15,
+        "damage": 20,
+        "lateDamageMultiplier": 0.65,
+        "returnDamageMultiplier": 1,
+        "timeoutSeconds": 4
+      }
+    }
+  ]
+}

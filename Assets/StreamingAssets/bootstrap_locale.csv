@@ -1,0 +1,7 @@
+key,ko,en
+bootstrap.invalid.title,콘텐츠 없음,No Content
+bootstrap.invalid.body,콘텐츠 팩을 검증하지 못했습니다. 아래 리포트를 수정한 뒤 다시 실행하세요.,The content pack could not be validated. Fix the report below and run again.
+bootstrap.retry,다시 검사,Revalidate
+bootstrap.canary.title,콘텐츠 팩 검증 완료,Content Canary Ready
+bootstrap.canary.body,최소 콘텐츠 팩은 로더와 검증기를 확인하기 위한 카나리아입니다.,The minimal content pack is a canary for the loader and validator.
+bootstrap.canary.detail,플레이 가능한 MVP 콘텐츠 계약은 포함하지 않습니다.,It does not include the playable MVP runtime contract.

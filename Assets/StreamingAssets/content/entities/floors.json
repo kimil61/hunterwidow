@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "floor_mountain",
+      "type": "floor",
+      "nameKey": "floor.mountain.name",
+      "descKey": "floor.mountain.desc",
+      "startingErosion": 100,
+      "decayPerSecond": 0.2,
+      "nextFloorId": "floor_mine",
+      "visual": {
+        "backgroundColor": [0.16, 0.28, 0.2, 1],
+        "groundColor": [0.1, 0.19, 0.13, 1],
+        "pathColor": [0.2, 0.16, 0.12, 1],
+        "ropeColor": [0.92, 0.78, 0.35, 1],
+        "purifierColor": [0.35, 0.9, 0.8, 1],
+        "descentColor": [0.2, 0.2, 0.2, 1],
+        "playerColor": [0.35, 0.8, 1, 1],
+        "waveForwardColor": [1, 0.9, 0.35, 1],
+        "waveReturnColor": [1, 0.55, 0.2, 1]
+      },
+      "layout": {
+        "playerStart": [-7, 0],
+        "ropeCandidates": [[-8, 5], [8, -2.6], [-6.5, 3.4], [7, 5.4], [3, -5.5]],
+        "activeRopeCount": 2,
+        "purifierPositions": [[-1, -2.8], [4, 3]],
+        "descentPosition": [8, 2.8],
+        "enemySpawns": [
+          { "position": [-1, 2], "candidateIds": ["enm_shadow"] },
+          { "position": [2.2, -1.2], "candidateIds": ["enm_shadow"] },
+          { "position": [5, 1.4], "candidateIds": ["enm_shadow"] },
+          { "position": [6, -3.5], "candidateIds": ["enm_shadow"] },
+          { "position": [-2, 4], "candidateIds": ["enm_shadow"] },
+          { "position": [3, 4], "candidateIds": ["enm_shadow"] }
+        ],
+        "gatherSpawns": [
+          { "position": [-4, -2.2], "candidateIds": ["mat_herb"] },
+          { "position": [1.5, 2.4], "candidateIds": ["mat_herb"] },
+          { "position": [4.2, -2], "candidateIds": ["mat_herb"] },
+          { "position": [-3.5, 3.5], "candidateIds": ["mat_herb"] }
+        ]
+      }
+    },
+    {
+      "id": "floor_mine",
+      "type": "floor",
+      "nameKey": "floor.mine.name",
+      "descKey": "floor.mine.desc",
+      "startingErosion": 70,
+      "decayPerSecond": 0.25,
+      "nextFloorId": "floor_depth",
+      "visual": {
+        "backgroundColor": [0.2, 0.17, 0.24, 1],
+        "groundColor": [0.13, 0.1, 0.18, 1],
+        "pathColor": [0.22, 0.17, 0.26, 1],
+        "ropeColor": [0.85, 0.7, 0.3, 1],
+        "purifierColor": [0.3, 0.75, 0.85, 1],
+        "descentColor": [0.16, 0.16, 0.22, 1],
+        "playerColor": [0.35, 0.8, 1, 1],
+        "waveForwardColor": [1, 0.86, 0.32, 1],
+        "waveReturnColor": [1, 0.48, 0.22, 1]
+      },
+      "layout": {
+        "playerStart": [-7, 0],
+        "ropeCandidates": [[-8, 5], [8, -2.6], [-6.5, 3.4], [7, 5.4], [3, -5.5]],
+        "activeRopeCount": 2,
+        "purifierPositions": [[-1, -2.8]],
+        "descentPosition": [8, 2.8],
+        "enemySpawns": [
+          { "position": [-1, 2], "candidateIds": ["enm_wanderer"] },
+          { "position": [2.2, -1.2], "candidateIds": ["enm_wanderer"] },
+          { "position": [5, 1.4], "candidateIds": ["enm_wanderer"] },
+          { "position": [6, -3.5], "candidateIds": ["enm_wanderer"] },
+          { "position": [-2, 4], "candidateIds": ["enm_wanderer"] },
+          { "position": [3, 4], "candidateIds": ["enm_wanderer"] },
+          { "position": [-5, -3.5], "candidateIds": ["enm_wanderer"] },
+          { "position": [1, 5], "candidateIds": ["enm_wanderer"] }
+        ],
+        "gatherSpawns": [
+          { "position": [-4, -2.2], "candidateIds": ["mat_herb"] },
+          { "position": [1.5, 2.4], "candidateIds": ["mat_herb"] },
+          { "position": [4.2, -2], "candidateIds": ["mat_herb"] },
+          { "position": [-3.5, 3.5], "candidateIds": ["mat_herb"] }
+        ]
+      }
+    },
+    {
+      "id": "floor_depth",
+      "type": "floor",
+      "nameKey": "floor.depth.name",
+      "descKey": "floor.depth.desc",
+      "startingErosion": 40,
+      "decayPerSecond": 0.35,
+      "accessRequirement": {
+        "upgradeAxisId": "resistance",
+        "minimumLevel": 1,
+        "nameKey": "upgrade.resistance.name"
+      },
+      "visual": {
+        "backgroundColor": [0.12, 0.11, 0.19, 1],
+        "groundColor": [0.08, 0.06, 0.13, 1],
+        "pathColor": [0.16, 0.1, 0.22, 1],
+        "ropeColor": [0.72, 0.6, 0.26, 1],
+        "purifierColor": [0.3, 0.7, 0.75, 1],
+        "descentColor": [0.11, 0.11, 0.16, 1],
+        "playerColor": [0.35, 0.8, 1, 1],
+        "waveForwardColor": [1, 0.8, 0.35, 1],
+        "waveReturnColor": [1, 0.4, 0.25, 1]
+      },
+      "layout": {
+        "playerStart": [-7, 0],
+        "ropeCandidates": [[-8, 5], [8, -2.6], [-6.5, 3.4], [7, 5.4], [3, -5.5]],
+        "activeRopeCount": 2,
+        "purifierPositions": [[-1, -2.8]],
+        "enemySpawns": [
+          { "position": [-1, 2], "candidateIds": ["enm_ranged"] },
+          { "position": [2.2, -1.2], "candidateIds": ["enm_ranged"] },
+          { "position": [5, 1.4], "candidateIds": ["enm_ranged"] },
+          { "position": [6, -3.5], "candidateIds": ["enm_ranged"] },
+          { "position": [-2, 4], "candidateIds": ["enm_ranged"] },
+          { "position": [3, 4], "candidateIds": ["enm_ranged"] },
+          { "position": [-5, -3.5], "candidateIds": ["enm_ranged"] },
+          { "position": [1, 5], "candidateIds": ["enm_ranged"] },
+          { "position": [-6, 1], "candidateIds": ["enm_ranged"] },
+          { "position": [5.5, 4.2], "candidateIds": ["enm_ranged"] }
+        ],
+        "gatherSpawns": [
+          { "position": [-4, -2.2], "candidateIds": ["mat_herb"] },
+          { "position": [1.5, 2.4], "candidateIds": ["mat_herb"] },
+          { "position": [4.2, -2], "candidateIds": ["mat_herb"] }
+        ]
+      }
+    }
+  ]
+}

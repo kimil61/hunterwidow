@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "cfg_progression",
+      "type": "config",
+      "role": "progression",
+      "startingFloorId": "floor_mountain",
+      "startingRecipeId": "rcp_tonic",
+      "firstFloorErosion": 100,
+      "secondFloorErosion": 70,
+      "thirdFloorErosion": 40,
+      "baseBackpackSlots": 8,
+      "baseErosionDecayRate": 1,
+      "baseWeaponDamage": 20,
+      "baseWeaponScale": 1,
+      "baseCauldronSlots": 1,
+      "baseRefineryLevel": 0,
+      "tutorial": {
+        "floorId": "floor_mountain",
+        "completionFlagId": "flag_tutorial_sweet",
+        "targetEnemyId": "enm_training_target",
+        "targetPositions": [[-4, 0], [-1, 0], [2, 0]],
+        "introTextKeys": [
+          "ui.tutorial.intro_1",
+          "ui.tutorial.intro_2",
+          "ui.tutorial.intro_3"
+        ]
+      }
+    }
+  ]
+}

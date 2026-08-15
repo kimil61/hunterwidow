@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "cfg_combat",
+      "type": "config",
+      "role": "combat",
+      "starterWeaponId": "wpn_charge_wave",
+      "minCharge": 0.15,
+      "sweetStart": 0.55,
+      "sweetEnd": 0.8,
+      "maxCharge": 1.2,
+      "chargeMoveMultiplier": 0.55,
+      "autoFire": true,
+      "playerSpeed": 5,
+      "contactRadius": 0.72,
+      "contactIntervalSeconds": 0.75,
+      "interactionRadius": 1.15,
+      "hitRadius": 0.65,
+      "forwardHitStopSeconds": 0.06,
+      "returnHitStopSeconds": 0.1,
+      "forwardScreenShakeSeconds": 0.07,
+      "returnScreenShakeSeconds": 0.12,
+      "forwardScreenShakeAmount": 0.08,
+      "returnScreenShakeAmount": 0.14,
+      "sweetToneHz": 880,
+      "lateToneHz": 330,
+      "returnToneHz": 660,
+      "cancelToneHz": 180,
+      "hitToneHz": 990,
+      "toneSeconds": 0.12,
+      "toneVolume": 0.2
+    }
+  ]
+}

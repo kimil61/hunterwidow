@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "cfg_inventory",
+      "type": "config",
+      "role": "inventory",
+      "startingSlots": 8,
+      "forcedLossFraction": 0.5,
+      "gatherHoldSeconds": 3
+    }
+  ]
+}

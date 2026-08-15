@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "cfg_audio",
+      "type": "config",
+      "role": "audio",
+      "sampleRate": 44100,
+      "loopSeconds": 60,
+      "toneVolume": 0.035,
+      "playBgmDuringDive": false,
+      "bgmHz": 130.81,
+      "ambienceHz": 65.41
+    }
+  ]
+}

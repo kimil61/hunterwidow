@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    { "id": "flag_tutorial_sweet", "type": "flag" },
+    { "id": "flag_evt_first_return", "type": "flag" },
+    { "id": "flag_evt_depth_recipe", "type": "flag" }
+  ]
+}

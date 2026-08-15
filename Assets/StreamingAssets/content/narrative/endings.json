@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "end_devotion",
+      "type": "ending",
+      "cgId": "cg_eighth_memory",
+      "textKey": "ending.devotion.text",
+      "conditions": [
+        {
+          "type": "item_crafted",
+          "id": "itm_final_medicine"
+        },
+        {
+          "type": "affinity_at_least",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "id": "end_solitude",
+      "type": "ending",
+      "cgId": "cg_sixth_memory",
+      "textKey": "ending.solitude.text",
+      "conditions": [
+        {
+          "type": "item_crafted",
+          "id": "itm_final_medicine"
+        },
+        {
+          "type": "affinity_below",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "id": "end_hope",
+      "type": "ending",
+      "cgId": "cg_seventh_memory",
+      "textKey": "ending.hope.text",
+      "conditions": [
+        {
+          "type": "item_crafted",
+          "id": "itm_final_medicine"
+        }
+      ]
+    }
+  ]
+}

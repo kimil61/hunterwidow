@@ -20,6 +20,10 @@
 /[Uu]ser[Ss]ettings/
 *.log
 
+# .NET tool build output
+/Tools/**/[Bb]in/
+/Tools/**/[Oo]bj/
+
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be committed to version control.
 *.blend1
 *.blend1.meta

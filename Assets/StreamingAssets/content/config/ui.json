@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "cfg_ui",
+      "type": "config",
+      "role": "ui",
+      "upgradeGroups": {
+        "workbench": ["backpack", "resistance", "weapon"],
+        "pharmacy": ["cauldron", "refinery"]
+      },
+      "textKey": [
+        "ui.common.back", "ui.common.close", "ui.common.item_count", "ui.common.list_separator", "ui.common.name_detail", "ui.common.options", "ui.common.replacement",
+        "ui.dive.arrow_down", "ui.dive.arrow_left", "ui.dive.arrow_right", "ui.dive.arrow_up", "ui.dive.floor", "ui.dive.metrics", "ui.dive.replace_prompt", "ui.dive.replace_slot", "ui.dive.rope_direction", "ui.dive.slots", "ui.dive.title",
+        "ui.ending.title", "ui.ending.title_return",
+        "ui.gallery.locked", "ui.gallery.title", "ui.gallery.unlocked",
+        "ui.options.ambience", "ui.options.bgm", "ui.options.change_resolution", "ui.options.controls", "ui.options.english", "ui.options.fullscreen", "ui.options.korean", "ui.options.resolution", "ui.options.sfx", "ui.options.title",
+        "ui.pharmacy.affinity", "ui.pharmacy.cauldron", "ui.pharmacy.craft", "ui.pharmacy.facility", "ui.pharmacy.facility_help", "ui.pharmacy.missing", "ui.pharmacy.missing_details", "ui.pharmacy.no_slot", "ui.pharmacy.quality", "ui.pharmacy.ready", "ui.pharmacy.sell", "ui.pharmacy.sell_one", "ui.pharmacy.start", "ui.pharmacy.title", "ui.pharmacy.use",
+        "ui.result.expected_value", "ui.result.extracted", "ui.result.floor", "ui.result.forced", "ui.result.loss", "ui.result.settle", "ui.result.telemetry_log", "ui.result.telemetry_unavailable", "ui.result.title",
+        "ui.status.backpack_full", "ui.status.charge_cancelled", "ui.status.charge_late", "ui.status.charge_sweet", "ui.status.collected", "ui.status.continued", "ui.status.descended", "ui.status.dive_started", "ui.status.extracted", "ui.status.floor_locked", "ui.status.floor_requires_upgrade", "ui.status.forced_return", "ui.status.forward_hit", "ui.status.medicine_used", "ui.status.new_game", "ui.status.purified", "ui.status.recipe_missing", "ui.status.recipe_started", "ui.status.replaced", "ui.status.return_hit", "ui.status.save_recovered", "ui.status.settled", "ui.status.sold", "ui.status.title", "ui.status.tuning_applied", "ui.status.tuning_invalid", "ui.status.tuning_reloaded", "ui.status.tuning_saved", "ui.status.tutorial_complete", "ui.status.tutorial_sweet_required", "ui.status.upgrade_bought", "ui.status.upgrade_requirement", "ui.status.upgrade_unavailable",
+        "ui.story.next", "ui.story.title",
+        "ui.title.continue", "ui.title.main", "ui.title.new_game", "ui.title.options", "ui.title.quit", "ui.title.subtitle",
+        "ui.tutorial.title",
+        "ui.tuning.apply", "ui.tuning.charge_move_multiplier", "ui.tuning.damage", "ui.tuning.help", "ui.tuning.late_damage_multiplier", "ui.tuning.max_charge", "ui.tuning.max_range", "ui.tuning.min_charge", "ui.tuning.reload", "ui.tuning.return_damage_multiplier", "ui.tuning.return_speed", "ui.tuning.save", "ui.tuning.sweet_end", "ui.tuning.sweet_start", "ui.tuning.title", "ui.tuning.wave_speed", "ui.tuning.wave_timeout",
+        "ui.village.apothecary", "ui.village.enter_floor", "ui.village.gallery", "ui.village.mountain", "ui.village.status", "ui.village.title", "ui.village.workbench",
+        "ui.workbench.buy", "ui.workbench.gold", "ui.workbench.insufficient_gold", "ui.workbench.prerequisite", "ui.workbench.purchased", "ui.workbench.title", "ui.workbench.upgrade_cost"
+      ]
+    }
+  ]
+}

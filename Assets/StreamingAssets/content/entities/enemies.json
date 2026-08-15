@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "enm_training_target",
+      "type": "enemy",
+      "behavior": "training",
+      "nameKey": "enemy.training_target.name",
+      "descKey": "enemy.training_target.desc",
+      "tint": [0.95, 0.8, 0.28, 1],
+      "params": {
+        "maxHealth": 20,
+        "moveSpeed": 0,
+        "contactDamage": 0,
+        "wanderDistance": 0,
+        "wanderMoveMultiplier": 0,
+        "retreatDistance": 0
+      },
+      "dropTableId": "drop_tutorial",
+      "floorId": "floor_mountain",
+      "isTutorialTarget": true
+    },
+    {
+      "id": "enm_shadow",
+      "type": "enemy",
+      "behavior": "chaser",
+      "nameKey": "enemy.shadow.name",
+      "descKey": "enemy.shadow.desc",
+      "tint": [0.9, 0.25, 0.35, 1],
+      "params": {
+        "maxHealth": 40,
+        "moveSpeed": 2.5,
+        "contactDamage": 10,
+        "wanderDistance": 0,
+        "wanderMoveMultiplier": 0,
+        "retreatDistance": 0
+      },
+      "dropTableId": "drop_mountain",
+      "floorId": "floor_mountain"
+    },
+    {
+      "id": "enm_wanderer",
+      "type": "enemy",
+      "behavior": "wanderer",
+      "nameKey": "enemy.wanderer.name",
+      "descKey": "enemy.wanderer.desc",
+      "tint": [0.7, 0.45, 0.95, 1],
+      "params": {
+        "maxHealth": 55,
+        "moveSpeed": 2,
+        "contactDamage": 11,
+        "wanderDistance": 4,
+        "wanderMoveMultiplier": 0.25,
+        "retreatDistance": 0
+      },
+      "dropTableId": "drop_mine",
+      "floorId": "floor_mine"
+    },
+    {
+      "id": "enm_ranged",
+      "type": "enemy",
+      "behavior": "ranged",
+      "nameKey": "enemy.ranged.name",
+      "descKey": "enemy.ranged.desc",
+      "tint": [0.95, 0.35, 0.7, 1],
+      "params": {
+        "maxHealth": 70,
+        "moveSpeed": 1.7,
+        "contactDamage": 12,
+        "wanderDistance": 0,
+        "wanderMoveMultiplier": 0,
+        "retreatDistance": 3
+      },
+      "dropTableId": "drop_depth",
+      "floorId": "floor_depth"
+    }
+  ]
+}

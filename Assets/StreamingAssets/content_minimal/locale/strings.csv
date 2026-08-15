@@ -1,0 +1,13 @@
+key,ko,en
+ui.minimal_ready,최소 콘텐츠 준비 완료,Minimal content ready
+weapon.minimal.name,최소 검기,Minimal wave
+weapon.minimal.desc,검증용 무기,Validation weapon
+material.minimal.name,검증 잎,Validation leaf
+material.minimal.desc,검증용 재료,Validation material
+item.minimal.name,검증 약,Validation tonic
+item.minimal.desc,검증용 결과물,Validation output
+recipe.minimal.name,검증 조제,Validation recipe
+recipe.minimal.desc,검증용 조제법,Validation recipe description
+floor.minimal.name,검증 들판,Validation field
+floor.minimal.desc,검증용 층,Validation floor
+ending.minimal.text,최소 엔딩,Minimal ending

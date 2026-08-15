@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "cg_first_memory",
+      "type": "cg",
+      "requiredAffinity": 1,
+      "nameKey": "cg.first_memory.name",
+      "placeholderColor": [0.52, 0.34, 0.64, 1],
+      "textKey": "cg.first_memory.text"
+    },
+    {
+      "id": "cg_second_memory",
+      "type": "cg",
+      "requiredAffinity": 2,
+      "nameKey": "cg.second_memory.name",
+      "placeholderColor": [0.42, 0.48, 0.72, 1],
+      "textKey": "cg.second_memory.text"
+    },
+    {
+      "id": "cg_third_memory",
+      "type": "cg",
+      "requiredAffinity": 3,
+      "nameKey": "cg.third_memory.name",
+      "placeholderColor": [0.32, 0.6, 0.66, 1],
+      "textKey": "cg.third_memory.text"
+    },
+    {
+      "id": "cg_fourth_memory",
+      "type": "cg",
+      "requiredAffinity": 4,
+      "nameKey": "cg.fourth_memory.name",
+      "placeholderColor": [0.3, 0.64, 0.46, 1],
+      "textKey": "cg.fourth_memory.text"
+    },
+    {
+      "id": "cg_fifth_memory",
+      "type": "cg",
+      "requiredAffinity": 5,
+      "nameKey": "cg.fifth_memory.name",
+      "placeholderColor": [0.72, 0.58, 0.3, 1],
+      "textKey": "cg.fifth_memory.text"
+    },
+    {
+      "id": "cg_sixth_memory",
+      "type": "cg",
+      "requiredAffinity": 6,
+      "nameKey": "cg.sixth_memory.name",
+      "placeholderColor": [0.72, 0.38, 0.36, 1],
+      "textKey": "cg.sixth_memory.text"
+    },
+    {
+      "id": "cg_seventh_memory",
+      "type": "cg",
+      "requiredAffinity": 7,
+      "nameKey": "cg.seventh_memory.name",
+      "placeholderColor": [0.68, 0.4, 0.56, 1],
+      "textKey": "cg.seventh_memory.text"
+    },
+    {
+      "id": "cg_eighth_memory",
+      "type": "cg",
+      "requiredAffinity": 8,
+      "nameKey": "cg.eighth_memory.name",
+      "placeholderColor": [0.84, 0.62, 0.46, 1],
+      "textKey": "cg.eighth_memory.text"
+    }
+  ]
+}

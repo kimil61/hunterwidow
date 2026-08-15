@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "cfg_economy",
+      "type": "config",
+      "role": "economy",
+      "rawSaleRatio": 0.3,
+      "tierOneMultiplier": 1,
+      "tierTwoMultiplier": 1.5,
+      "tierThreeMultiplier": 2.2,
+      "tierThresholds": [1, 2, 3],
+      "tierMultipliers": [1, 1.5, 2.2],
+      "refineryBonuses": [0, 0.3, 0.6, 1]
+    }
+  ]
+}

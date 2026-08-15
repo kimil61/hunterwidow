@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    { "id": "upg_backpack_one", "type": "upgrade", "axisId": "backpack", "level": 1, "cost": 40, "effectKey": "backpack_slots", "operation": "add", "value": 3, "nameKey": "upgrade.backpack.name", "descKey": "upgrade.backpack.desc" },
+    { "id": "upg_backpack_two", "type": "upgrade", "axisId": "backpack", "level": 2, "cost": 80, "effectKey": "backpack_slots", "operation": "add", "value": 3, "nameKey": "upgrade.backpack.name", "descKey": "upgrade.backpack.desc" },
+    { "id": "upg_backpack_three", "type": "upgrade", "axisId": "backpack", "level": 3, "cost": 120, "effectKey": "backpack_slots", "operation": "add", "value": 3, "nameKey": "upgrade.backpack.name", "descKey": "upgrade.backpack.desc" },
+    { "id": "upg_resistance_one", "type": "upgrade", "axisId": "resistance", "level": 1, "cost": 50, "effectKey": "erosion_decay_rate", "operation": "mul", "value": 0.85, "nameKey": "upgrade.resistance.name", "descKey": "upgrade.resistance.desc" },
+    { "id": "upg_resistance_two", "type": "upgrade", "axisId": "resistance", "level": 2, "cost": 100, "effectKey": "erosion_decay_rate", "operation": "mul", "value": 0.85, "nameKey": "upgrade.resistance.name", "descKey": "upgrade.resistance.desc" },
+    { "id": "upg_resistance_three", "type": "upgrade", "axisId": "resistance", "level": 3, "cost": 150, "effectKey": "erosion_decay_rate", "operation": "mul", "value": 0.85, "nameKey": "upgrade.resistance.name", "descKey": "upgrade.resistance.desc" },
+    { "id": "upg_weapon_one", "type": "upgrade", "axisId": "weapon", "level": 1, "cost": 60, "effects": [{ "key": "weapon_damage", "operation": "mul", "value": 1.4 }, { "key": "weapon_scale", "operation": "mul", "value": 1.15 }], "nameKey": "upgrade.weapon.name", "descKey": "upgrade.weapon.desc" },
+    { "id": "upg_weapon_two", "type": "upgrade", "axisId": "weapon", "level": 2, "cost": 120, "effects": [{ "key": "weapon_damage", "operation": "mul", "value": 1.4 }, { "key": "weapon_scale", "operation": "mul", "value": 1.15 }], "nameKey": "upgrade.weapon.name", "descKey": "upgrade.weapon.desc" },
+    { "id": "upg_weapon_three", "type": "upgrade", "axisId": "weapon", "level": 3, "cost": 180, "effects": [{ "key": "weapon_damage", "operation": "mul", "value": 1.4 }, { "key": "weapon_scale", "operation": "mul", "value": 1.15 }], "nameKey": "upgrade.weapon.name", "descKey": "upgrade.weapon.desc" },
+    { "id": "upg_cauldron_one", "type": "upgrade", "axisId": "cauldron", "level": 1, "cost": 70, "effectKey": "cauldron_slots", "operation": "set", "value": 2, "nameKey": "upgrade.cauldron.name", "descKey": "upgrade.cauldron.desc" },
+    { "id": "upg_cauldron_two", "type": "upgrade", "axisId": "cauldron", "level": 2, "cost": 140, "effectKey": "cauldron_slots", "operation": "set", "value": 3, "nameKey": "upgrade.cauldron.name", "descKey": "upgrade.cauldron.desc" },
+    { "id": "upg_cauldron_three", "type": "upgrade", "axisId": "cauldron", "level": 3, "cost": 210, "effectKey": "cauldron_slots", "operation": "set", "value": 4, "nameKey": "upgrade.cauldron.name", "descKey": "upgrade.cauldron.desc" },
+    { "id": "upg_refinery_one", "type": "upgrade", "axisId": "refinery", "level": 1, "cost": 80, "effectKey": "refinery_level", "operation": "set", "value": 1, "nameKey": "upgrade.refinery.name", "descKey": "upgrade.refinery.desc" },
+    { "id": "upg_refinery_two", "type": "upgrade", "axisId": "refinery", "level": 2, "cost": 160, "effectKey": "refinery_level", "operation": "set", "value": 2, "nameKey": "upgrade.refinery.name", "descKey": "upgrade.refinery.desc" },
+    { "id": "upg_refinery_three", "type": "upgrade", "axisId": "refinery", "level": 3, "cost": 240, "effectKey": "refinery_level", "operation": "set", "value": 3, "nameKey": "upgrade.refinery.name", "descKey": "upgrade.refinery.desc" }
+  ]
+}

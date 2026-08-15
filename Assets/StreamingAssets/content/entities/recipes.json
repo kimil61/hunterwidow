@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "rcp_tonic",
+      "type": "recipe",
+      "nameKey": "recipe.tonic.name",
+      "descKey": "recipe.tonic.desc",
+      "ingredients": [
+        {
+          "materialId": "mat_herb",
+          "amount": 2
+        }
+      ],
+      "outputItemId": "itm_tonic",
+      "outputCount": 1,
+      "durationCycles": 1,
+      "basePrice": 100
+    },
+    {
+      "id": "rcp_final_medicine",
+      "type": "recipe",
+      "nameKey": "recipe.final_medicine.name",
+      "descKey": "recipe.final_medicine.desc",
+      "ingredients": [
+        {
+          "materialId": "mat_forbidden",
+          "amount": 2
+        },
+        {
+          "materialId": "mat_deep",
+          "amount": 1
+        }
+      ],
+      "outputItemId": "itm_final_medicine",
+      "outputCount": 1,
+      "durationCycles": 2,
+      "basePrice": 500
+    }
+  ]
+}

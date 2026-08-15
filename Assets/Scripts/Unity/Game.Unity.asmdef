@@ -1,0 +1,17 @@
+{
+  "name": "Game.Unity",
+  "rootNamespace": "HunterWidow.Unity",
+  "references": [
+    "Game.Domain",
+    "Unity.InputSystem"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

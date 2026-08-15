@@ -1,0 +1,201 @@
+key,ko,en
+ui.content_ready,콘텐츠 준비 완료,Content ready
+ui.common.back,뒤로,Back
+ui.common.close,닫기,Close
+ui.common.item_count,{0} × {1},{0} × {1}
+ui.common.list_separator, · , · 
+ui.common.name_detail,{0} · {1},{0} · {1}
+ui.common.options,옵션,Options
+ui.common.replacement,{0} → {1},{0} → {1}
+ui.dive.arrow_down,↓,↓
+ui.dive.arrow_left,←,←
+ui.dive.arrow_right,→,→
+ui.dive.arrow_up,↑,↑
+ui.dive.floor,층: {0} | 침식 상태: {1},Floor: {0} | Erosion: {1}
+ui.dive.metrics,판정: 취소 {0:P0} | 스위트 {1:P0} | 늦음 {2:P0} | 평균 {3:0.00}초 | 적중 {4:P0} | 왕복 {5:P0},Timing: cancel {0:P0} | sweet {1:P0} | late {2:P0} | avg {3:0.00}s | hit {4:P0} | round trip {5:P0}
+ui.dive.replace_prompt,배낭이 가득 찼습니다. {0} x{1}과 바꿀 슬롯을 선택하세요:,Backpack full. Choose a slot to replace with {0} x{1}:
+ui.dive.replace_slot,{0} x{1} 버리기,Discard {0} x{1}
+ui.dive.rope_direction,가까운 밧줄,Nearest rope
+ui.dive.slots,배낭: {0}/{1},Backpack: {0}/{1}
+ui.dive.title,산 다이브,Mountain Dive
+ui.ending.title,엔딩,Ending
+ui.ending.title_return,타이틀로,Return to Title
+ui.gallery.locked,잠김,Locked
+ui.gallery.title,기억 갤러리,Memory Gallery
+ui.gallery.unlocked,해금됨,Unlocked
+ui.options.ambience,환경음,Ambience
+ui.options.bgm,BGM,BGM
+ui.options.change_resolution,해상도 변경,Change resolution
+ui.options.controls,WASD 또는 방향키로 이동 | 우클릭 차지 | E 상호작용 | F1 조율,Move with WASD or arrows | right click charge | E interact | F1 tune
+ui.options.english,English,English
+ui.options.fullscreen,전체 화면,Fullscreen
+ui.options.korean,한국어,Korean
+ui.options.resolution,해상도: {0}×{1},Resolution: {0}×{1}
+ui.options.sfx,효과음,SFX
+ui.options.title,옵션,Options
+ui.pharmacy.affinity,호감도: {0},Affinity: {0}
+ui.pharmacy.cauldron,가마솥: {0}/{1},Cauldron: {0}/{1}
+ui.pharmacy.craft,조제,Craft
+ui.pharmacy.facility,설비,Facility
+ui.pharmacy.facility_help,작업대에서 설비를 강화하면 조제와 판매 효율이 좋아집니다.,Upgrade facilities at the workbench to improve brewing and sales.
+ui.pharmacy.missing,재료 부족,Missing
+ui.pharmacy.missing_details,부족: {0},Missing: {0}
+ui.pharmacy.no_slot,가마솥 슬롯 없음,No cauldron slot
+ui.pharmacy.quality,품질 {0:0.0},Quality {0:0.0}
+ui.pharmacy.ready,조제 가능,Ready
+ui.pharmacy.sell,판매,Sell
+ui.pharmacy.sell_one,1개 판매,Sell 1
+ui.pharmacy.start,시작,Start
+ui.pharmacy.title,약방,Apothecary
+ui.pharmacy.use,사용,Use
+ui.result.extracted,로프를 타고 귀환했습니다.,Extracted by rope.
+ui.result.expected_value,원재료 직판 예상가: {0}G,Estimated raw sale: {0}G
+ui.result.floor,귀환 층: {0},Returned from: {0}
+ui.result.forced,침식으로 강제 귀환했습니다.,Forced return from erosion.
+ui.result.loss,잃은 재료: {0},Materials lost: {0}
+ui.result.settle,마을로 정산,Settle in Village
+ui.result.telemetry_log,계측 로그: {0},Telemetry log: {0}
+ui.result.telemetry_unavailable,저장 실패,Unavailable
+ui.result.title,다이브 결과,Dive Results
+ui.status.backpack_full,배낭이 가득 찼습니다: {0},Backpack full: {0}
+ui.status.charge_cancelled,차지가 취소되었습니다.,Charge cancelled.
+ui.status.charge_late,늦은 타이밍 발사.,Late release.
+ui.status.charge_sweet,스위트 스폿 발사!,Sweet-spot release!
+ui.status.collected,획득: {0},Collected: {0}
+ui.status.continued,저장 데이터를 불러왔습니다.,Save loaded.
+ui.status.descended,{0}로 내려갑니다.,Descended to {0}.
+ui.status.dive_started,{0} 다이브를 시작했습니다.,Started a dive in {0}.
+ui.status.extracted,안전하게 탈출했습니다.,Extracted safely.
+ui.status.floor_locked,아직 잠긴 층입니다: {0},Floor locked: {0}
+ui.status.floor_requires_upgrade,진입 조건: {0},Entry requirement: {0}
+ui.status.forced_return,침식이 바닥나 강제 귀환했습니다.,Erosion depleted: forced return.
+ui.status.forward_hit,전진 타격!,Forward hit!
+ui.status.medicine_used,약을 건네 호감도가 올랐습니다.,Medicine used: affinity increased.
+ui.status.new_game,새 여정을 시작합니다.,New journey started.
+ui.status.purified,침식을 정화했습니다.,Erosion purified.
+ui.status.recipe_missing,조제에 필요한 재료나 슬롯이 부족합니다: {0},Recipe unavailable: {0}
+ui.status.recipe_started,조제를 시작했습니다: {0},Brewing started: {0}
+ui.status.replaced,교체: {0},Replaced: {0}
+ui.status.return_hit,귀환 타격!,Return hit!
+ui.status.save_recovered,저장이 손상되어 백업을 불러왔습니다.,Save was repaired from backup.
+ui.status.settled,귀환 물품을 정산했습니다.,Return goods settled.
+ui.status.sold,{0} 골드를 얻었습니다.,Earned {0} gold.
+ui.status.title,새 게임 또는 이어하기를 선택하세요.,Choose New Game or Continue.
+ui.status.tuning_applied,조율값을 적용했습니다.,Tuning applied.
+ui.status.tuning_invalid,올바른 숫자를 입력하세요: {0},Enter a valid number: {0}
+ui.status.tuning_reloaded,저장된 조율값을 다시 불러왔습니다.,Saved tuning reloaded.
+ui.status.tuning_saved,조율값을 저장했습니다.,Tuning saved.
+ui.status.tutorial_complete,스위트 스폿을 익혔습니다. 적이 나타납니다.,Sweet spot learned. Enemies are approaching.
+ui.status.tutorial_sweet_required,표적을 스위트 스폿으로 베어 보세요.,Hit the targets with a sweet-spot release.
+ui.status.upgrade_bought,강화했습니다: {0},Upgrade purchased: {0}
+ui.status.upgrade_requirement,{0} {1}단계,{0} level {1}
+ui.status.upgrade_unavailable,강화할 수 없습니다: {0},Upgrade unavailable: {0}
+ui.story.next,다음,Next
+ui.story.title,약방 대화,Apothecary Conversation
+ui.title.continue,이어하기,Continue
+ui.title.main,HUNTER / WIDOW,HUNTER / WIDOW
+ui.title.new_game,새 게임,New Game
+ui.title.options,옵션,Options
+ui.title.quit,종료,Quit
+ui.title.subtitle,산으로 들어가 약을 완성하세요.,Enter the mountain and complete the medicine.
+ui.tutorial.title,첫 번째 발도,First Draw
+ui.tutorial.intro_1,산은 돌아오는 길을 쉽게 내주지 않습니다.,The mountain does not make the way back easy.
+ui.tutorial.intro_2,과부에게 필요한 약은 더 깊은 곳에 있습니다.,The medicine the widow needs lies deeper within.
+ui.tutorial.intro_3,발도를 익히고 밧줄을 기억하세요.,Learn the draw, and remember the ropes.
+ui.tuning.apply,적용,Apply
+ui.tuning.charge_move_multiplier,차지 이동 배율,Charge Move Multiplier
+ui.tuning.damage,피해량,Damage
+ui.tuning.help,각 수치를 바꾼 뒤 적용하거나 저장하세요.,Change values then apply or save them.
+ui.tuning.late_damage_multiplier,늦음 피해 배율,Late Damage Multiplier
+ui.tuning.max_charge,최대 차지 시간,Maximum Charge Time
+ui.tuning.max_range,검기 최대 거리,Wave Maximum Range
+ui.tuning.min_charge,최소 차지 시간,Minimum Charge Time
+ui.tuning.reload,다시 불러오기,Reload
+ui.tuning.return_damage_multiplier,귀환 피해 배율,Return Damage Multiplier
+ui.tuning.return_speed,귀환 속도,Return Speed
+ui.tuning.save,저장,Save
+ui.tuning.sweet_end,스위트 종료,Sweet Window End
+ui.tuning.sweet_start,스위트 시작,Sweet Window Start
+ui.tuning.title,전투 조율 (F1),Combat Tuning (F1)
+ui.tuning.wave_speed,검기 속도,Wave Speed
+ui.tuning.wave_timeout,검기 제한 시간,Wave Timeout
+ui.village.apothecary,약방,Apothecary
+ui.village.enter_floor,{0}에서 다이브 시작,Start dive at {0}
+ui.village.gallery,갤러리,Gallery
+ui.village.mountain,산으로,To Mountain
+ui.village.status,골드 {0} | 호감 {1} | 귀환 {2},Gold {0} | Affinity {1} | Returns {2}
+ui.village.title,마을,Village
+ui.village.workbench,작업대,Workbench
+ui.workbench.buy,구매,Buy
+ui.workbench.gold,보유 골드: {0},Gold: {0}
+ui.workbench.purchased,구매 완료,Purchased
+ui.workbench.prerequisite,선행 강화 필요,Requires previous level
+ui.workbench.insufficient_gold,골드 부족,Not enough gold
+ui.workbench.title,작업대,Workbench
+ui.workbench.upgrade_cost,{0} {1}단계 · {2}G,{0} Lv.{1} · {2}G
+weapon.charge_wave.name,검기 발도,Charge Wave
+weapon.charge_wave.desc,차지 후 검기를 발사합니다,Charge and release a returning wave
+enemy.shadow.name,그림자,Shadow
+enemy.shadow.desc,느리게 추적하는 적,A slow pursuing enemy
+enemy.training_target.name,훈련 표적,Training target
+enemy.training_target.desc,스위트 스폿을 익히는 표적,A target for learning the sweet spot
+enemy.wanderer.name,광산 망령,Mine wanderer
+enemy.wanderer.desc,배회하다 가까이 오면 추적하는 적,A wandering enemy that pursues nearby targets
+enemy.ranged.name,심층 잔영,Deep remnant
+enemy.ranged.desc,거리에서 압박하는 적,A deep enemy that pressures from range
+material.herb.name,산약초,Mountain herb
+material.herb.desc,약에 쓰이는 일반 재료,Common medicinal material
+material.forbidden.name,금기 재료,Forbidden material
+material.forbidden.desc,적이 남기는 위험한 재료,Dangerous enemy drop
+material.forbidden_refined.name,응축 금기 재료,Condensed forbidden material
+material.forbidden_refined.desc,침식이 깊을 때만 남는 고등급 재료,A higher-grade material left only at deep erosion
+material.deep.name,심층 결정,Deep crystal
+material.deep.desc,최심부의 희귀 재료,Rare deepest-layer material
+item.tonic.name,회복약,Restorative tonic
+item.tonic.desc,약방에서 만든 기본 약,Basic apothecary medicine
+item.final_medicine.name,완성된 약,Finished medicine
+item.final_medicine.desc,엔딩을 여는 약,Medicine that opens an ending
+recipe.tonic.name,회복약 조제,Make restorative tonic
+recipe.tonic.desc,산약초를 달입니다,Brew mountain herbs
+recipe.final_medicine.name,마지막 조제,Final preparation
+recipe.final_medicine.desc,심층 재료로 약을 완성합니다,Complete medicine with deep materials
+upgrade.backpack.name,배낭 확장,Backpack expansion
+upgrade.backpack.desc,소지 칸을 늘립니다,Increase carried slots
+upgrade.resistance.name,침식 저항,Erosion resistance
+upgrade.resistance.desc,침식 감소 속도를 낮춥니다,Slow erosion decay
+upgrade.weapon.name,검날 강화,Blade reinforcement
+upgrade.weapon.desc,검기 피해를 올립니다,Increase wave damage
+upgrade.cauldron.name,가마솥 슬롯,Cauldron slot
+upgrade.cauldron.desc,동시 조제를 늘립니다,Increase simultaneous brewing
+upgrade.refinery.name,정제 설비,Refinery
+upgrade.refinery.desc,품질 하한을 높입니다,Raise quality floor
+floor.mountain.name,산길,Mountain path
+floor.mountain.desc,첫 번째 다이브 지역,First dive area
+floor.mine.name,광산 상부,Upper mine
+floor.mine.desc,두 번째 다이브 지역,Second dive area
+floor.depth.name,최심부,Deepest layer
+floor.depth.desc,마지막 다이브 지역,Final dive area
+story.first_return.text,첫 귀환을 기록했습니다,The first return is recorded
+story.depth_recipe.text,최심부의 재료로 마지막 약을 조제할 수 있게 되었습니다,The deepest material has unlocked the final medicine recipe
+cg.first_memory.text,첫 기억이 열렸습니다,The first memory is unlocked
+cg.first_memory.name,첫 기억,First Memory
+cg.second_memory.text,두 번째 기억이 열렸습니다,The second memory is unlocked
+cg.second_memory.name,두 번째 기억,Second Memory
+cg.third_memory.text,세 번째 기억이 열렸습니다,The third memory is unlocked
+cg.third_memory.name,세 번째 기억,Third Memory
+cg.fourth_memory.text,네 번째 기억이 열렸습니다,The fourth memory is unlocked
+cg.fourth_memory.name,네 번째 기억,Fourth Memory
+cg.fifth_memory.text,다섯 번째 기억이 열렸습니다,The fifth memory is unlocked
+cg.fifth_memory.name,다섯 번째 기억,Fifth Memory
+cg.sixth_memory.text,여섯 번째 기억이 열렸습니다,The sixth memory is unlocked
+cg.sixth_memory.name,여섯 번째 기억,Sixth Memory
+cg.seventh_memory.text,일곱 번째 기억이 열렸습니다,The seventh memory is unlocked
+cg.seventh_memory.name,일곱 번째 기억,Seventh Memory
+cg.eighth_memory.text,여덟 번째 기억이 열렸습니다,The eighth memory is unlocked
+cg.eighth_memory.name,여덟 번째 기억,Eighth Memory
+ending.devotion.text,관계가 약의 마지막 뜻을 바꿉니다,Devotion changes the final meaning of the medicine
+ending.solitude.text,혼자서도 약은 내일을 엽니다,Even alone the medicine opens tomorrow
+ending.hope.text,약은 새로운 내일을 엽니다,The medicine opens a new tomorrow
+erosion.calm,평정,Calm
+erosion.sensitive,감각 예민,Sensitive
+erosion.severe,침식 심화,Severe

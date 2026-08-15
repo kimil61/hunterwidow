@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "drop_tutorial",
+      "type": "drop_table",
+      "entries": []
+    },
+    {
+      "id": "drop_mountain",
+      "type": "drop_table",
+      "entries": [
+        {
+          "materialId": "mat_forbidden",
+          "upgradedMaterialId": "mat_forbidden_refined",
+          "weight": 100
+        }
+      ]
+    },
+    {
+      "id": "drop_mine",
+      "type": "drop_table",
+      "entries": [
+        {
+          "materialId": "mat_forbidden",
+          "upgradedMaterialId": "mat_forbidden_refined",
+          "weight": 70
+        },
+        {
+          "materialId": "mat_herb",
+          "weight": 30
+        }
+      ]
+    },
+    {
+      "id": "drop_depth",
+      "type": "drop_table",
+      "entries": [
+        {
+          "materialId": "mat_deep",
+          "weight": 100
+        }
+      ]
+    }
+  ]
+}

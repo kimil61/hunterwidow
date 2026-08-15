@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "cfg_erosion",
+      "type": "config",
+      "role": "erosion",
+      "maxValue": 100,
+      "purifyAmount": 20,
+      "calmThreshold": 60,
+      "sensitiveThreshold": 30,
+      "bands": [
+        { "id": "calm", "nameKey": "erosion.calm", "minimumValue": 60, "dropUpgradeChance": 0, "overlayColor": [0, 0, 0, 1], "overlayAmount": 0, "ambiencePitch": 1, "ambienceLowPassCutoff": 22000, "ambienceReverbLevel": -10000 },
+        { "id": "sensitive", "nameKey": "erosion.sensitive", "minimumValue": 30, "dropUpgradeChance": 0.3, "overlayColor": [0.28, 0.12, 0.25, 1], "overlayAmount": 0.25, "ambiencePitch": 0.92, "ambienceLowPassCutoff": 6500, "ambienceReverbLevel": -3000 },
+        { "id": "severe", "nameKey": "erosion.severe", "minimumValue": 0, "dropUpgradeChance": 0.7, "overlayColor": [0.35, 0.06, 0.12, 1], "overlayAmount": 0.45, "ambiencePitch": 0.82, "ambienceLowPassCutoff": 1800, "ambienceReverbLevel": 0 }
+      ]
+    }
+  ]
+}

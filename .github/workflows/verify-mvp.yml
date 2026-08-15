@@ -1,0 +1,123 @@
+name: Verify Hunter Widow MVP
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: verify-mvp-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  static-content:
+    name: Content, architecture, and economy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Set up .NET 8
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Verify content and static contracts
+        shell: pwsh
+        run: ./Tools/VerifyStaticMvp.ps1
+
+  editmode:
+    name: Unity EditMode tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Require Unity license
+        shell: bash
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+        run: |
+          if [ -z "$UNITY_LICENSE" ]; then
+            echo "::error::Configure the UNITY_LICENSE repository secret before running Unity CI."
+            exit 1
+          fi
+
+      - name: Restore Unity Library cache
+        uses: actions/cache@v4
+        with:
+          path: Library
+          key: Library-editmode-${{ hashFiles('Assets/**', 'Packages/**', 'ProjectSettings/**') }}
+          restore-keys: |
+            Library-editmode-
+
+      - name: Run EditMode tests
+        id: unity-tests
+        uses: game-ci/unity-test-runner@v4
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+        with:
+          unityVersion: auto
+          testMode: EditMode
+          artifactsPath: artifacts/editmode
+
+      - name: Upload EditMode artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: editmode-results
+          path: ${{ steps.unity-tests.outputs.artifactsPath }}
+          if-no-files-found: warn
+
+  windows-build:
+    name: Windows MVP build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Require Unity license
+        shell: bash
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+        run: |
+          if [ -z "$UNITY_LICENSE" ]; then
+            echo "::error::Configure the UNITY_LICENSE repository secret before running Unity CI."
+            exit 1
+          fi
+
+      - name: Restore Unity Library cache
+        uses: actions/cache@v4
+        with:
+          path: Library
+          key: Library-windows-${{ hashFiles('Assets/**', 'Packages/**', 'ProjectSettings/**') }}
+          restore-keys: |
+            Library-windows-
+
+      - name: Build Windows MVP
+        uses: game-ci/unity-builder@v4
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+        with:
+          unityVersion: auto
+          targetPlatform: StandaloneWindows64
+          buildMethod: HunterWidow.Editor.HunterWidowBuild.BuildWindowsMvp
+
+      - name: Upload Windows player and logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: hunter-widow-windows-mvp
+          path: |
+            Builds
+            Logs
+          if-no-files-found: warn

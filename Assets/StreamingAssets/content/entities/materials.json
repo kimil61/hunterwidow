@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "mat_herb",
+      "type": "material",
+      "source": "gather",
+      "grade": 1,
+      "basePrice": 10,
+      "stackLimit": 5,
+      "tint": [0.4, 0.85, 0.35, 1],
+      "nameKey": "material.herb.name",
+      "descKey": "material.herb.desc"
+    },
+    {
+      "id": "mat_forbidden",
+      "type": "material",
+      "source": "enemy",
+      "grade": 2,
+      "basePrice": 35,
+      "stackLimit": 3,
+      "tint": [0.85, 0.35, 0.45, 1],
+      "nameKey": "material.forbidden.name",
+      "descKey": "material.forbidden.desc"
+    },
+    {
+      "id": "mat_forbidden_refined",
+      "type": "material",
+      "source": "enemy",
+      "grade": 3,
+      "basePrice": 55,
+      "stackLimit": 3,
+      "tint": [0.95, 0.55, 0.3, 1],
+      "nameKey": "material.forbidden_refined.name",
+      "descKey": "material.forbidden_refined.desc"
+    },
+    {
+      "id": "mat_deep",
+      "type": "material",
+      "source": "enemy",
+      "grade": 3,
+      "basePrice": 80,
+      "stackLimit": 3,
+      "tint": [0.7, 0.45, 1, 1],
+      "nameKey": "material.deep.name",
+      "descKey": "material.deep.desc"
+    }
+  ]
+}

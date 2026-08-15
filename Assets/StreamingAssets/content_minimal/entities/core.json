@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "wpn_minimal_wave",
+      "type": "weapon",
+      "behavior": "charge_wave",
+      "nameKey": "weapon.minimal.name",
+      "descKey": "weapon.minimal.desc",
+      "params": {
+        "minCharge": 0.1,
+        "sweetStart": 0.4,
+        "sweetEnd": 0.7,
+        "maxCharge": 1,
+        "maxRange": 6,
+        "speed": 10,
+        "returnSpeed": 12,
+        "damage": 10,
+        "lateDamageMultiplier": 0.65,
+        "returnDamageMultiplier": 1,
+        "timeoutSeconds": 4
+      }
+    },
+    {
+      "id": "mat_minimal_leaf",
+      "type": "material",
+      "source": "gather",
+      "nameKey": "material.minimal.name",
+      "descKey": "material.minimal.desc"
+    },
+    {
+      "id": "itm_minimal_tonic",
+      "type": "item",
+      "nameKey": "item.minimal.name",
+      "descKey": "item.minimal.desc"
+    },
+    {
+      "id": "rcp_minimal_tonic",
+      "type": "recipe",
+      "nameKey": "recipe.minimal.name",
+      "descKey": "recipe.minimal.desc",
+      "ingredients": [
+        {
+          "materialId": "mat_minimal_leaf",
+          "amount": 1
+        }
+      ],
+      "outputItemId": "itm_minimal_tonic"
+    },
+    {
+      "id": "floor_minimal_field",
+      "type": "floor",
+      "nameKey": "floor.minimal.name",
+      "descKey": "floor.minimal.desc"
+    },
+    {
+      "id": "end_minimal",
+      "type": "ending",
+      "textKey": "ending.minimal.text",
+      "conditions": [
+        {
+          "type": "item_crafted",
+          "id": "itm_minimal_tonic"
+        }
+      ]
+    }
+  ]
+}

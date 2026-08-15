@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "evt_first_return",
+      "type": "story_event",
+      "priority": 10,
+      "portraitCgId": "cg_first_memory",
+      "textKey": "story.first_return.text",
+      "conditions": [
+        {
+          "type": "cycle_at_least",
+          "value": 1
+        },
+        {
+          "type": "flag_not_set",
+          "id": "flag_evt_first_return"
+        }
+      ],
+      "effects": [
+        {
+          "type": "set_flag",
+          "id": "flag_evt_first_return"
+        },
+        {
+          "type": "add_affinity",
+          "value": 1
+        },
+        {
+          "type": "unlock_cg",
+          "id": "cg_first_memory"
+        }
+      ]
+    },
+    {
+      "id": "evt_depth_recipe",
+      "type": "story_event",
+      "priority": 20,
+      "portraitCgId": "cg_sixth_memory",
+      "textKey": "story.depth_recipe.text",
+      "conditions": [
+        {
+          "type": "floor_first_reached",
+          "id": "floor_depth"
+        },
+        {
+          "type": "flag_not_set",
+          "id": "flag_evt_depth_recipe"
+        }
+      ],
+      "effects": [
+        {
+          "type": "set_flag",
+          "id": "flag_evt_depth_recipe"
+        },
+        {
+          "type": "unlock_recipe",
+          "id": "rcp_final_medicine"
+        },
+        {
+          "type": "add_affinity",
+          "value": 1
+        }
+      ]
+    }
+  ]
+}

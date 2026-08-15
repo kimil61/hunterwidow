@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "cfg_simulation",
+      "type": "config",
+      "role": "simulation",
+      "gains": [
+        { "id": "mat_herb", "count": 2, "startCycle": 1 },
+        { "id": "mat_forbidden", "count": 1, "startCycle": 2 },
+        { "id": "mat_deep", "count": 1, "startCycle": 5 }
+      ],
+      "recipePriorityIds": ["rcp_tonic", "rcp_final_medicine"]
+    }
+  ]
+}

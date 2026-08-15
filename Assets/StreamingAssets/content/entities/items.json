@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "itm_tonic",
+      "type": "item",
+      "affinityValue": 1,
+      "nameKey": "item.tonic.name",
+      "descKey": "item.tonic.desc"
+    },
+    {
+      "id": "itm_final_medicine",
+      "type": "item",
+      "affinityValue": 3,
+      "nameKey": "item.final_medicine.name",
+      "descKey": "item.final_medicine.desc"
+    }
+  ]
+}

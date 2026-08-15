@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "cfg_pack",
+      "type": "pack",
+      "defaultLocale": "ko",
+      "runtimeRequiredIds": [
+        "cfg_combat", "cfg_erosion", "cfg_inventory", "cfg_economy",
+        "cfg_progression", "cfg_options", "cfg_audio", "cfg_ui"
+      ],
+      "textKey": "ui.content_ready"
+    }
+  ]
+}
